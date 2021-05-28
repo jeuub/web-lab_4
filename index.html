@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лабораторная #4</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="main">
+
+
+    <button class="return_ship"></button>
+    <button class="stop"></button>
+    <div class="sea"></div>
+    <div id="container_ship">
+      <div id="mast">
+        <div id="sail-1"></div>
+        <div id="sail-2"></div>
+      </div>
+      <button type="button" class="ship_button" id="buttoun">Нажать</button>
+    </div>
+
+    <div class="icon">
+      <div class="sun">
+        <div class="rays"></div>
+      </div>
+    </div>
+
+    <svg class="cloud_1">
+      <g id="thecloud" class="cloud_anim">
+        <path id="Cloud" fill="#FFFFFF" d="M184.5,117.6c0-11.1-5-21-12.9-27.2c0.3-1.8,0.5-3.6,0.5-5.5c0-20.1-16.4-36.5-36.6-36.5 c-16.5,0-30.5,10.9-35,25.9c-4-6.2-11-10.3-19-10.3c-11.9,0-21.7,9.1-22.4,20.7c-2.8-0.7-5.7-1.1-8.8-1.1 c-19.2,0-34.8,15.2-34.8,33.9s15.3,33.9,34.5,33.9c0.9,0,1.7,0,2.4-0.1l0,0l99.3,0.1l0,0C169.7,151.4,184.5,136.3,184.5,117.6z">
+          <animate attributeName="dx" from="0" to="200" repeatCount="indefinite" dur="3s" />
+        </path>
+      </g>
+    </svg>
+
+    <svg class="cloud_2">
+      <g id="thecloud" class="cloud_anim">
+        <path id="Cloud" fill="#FFFFFF" d="M184.5,117.6c0-11.1-5-21-12.9-27.2c0.3-1.8,0.5-3.6,0.5-5.5c0-20.1-16.4-36.5-36.6-36.5 c-16.5,0-30.5,10.9-35,25.9c-4-6.2-11-10.3-19-10.3c-11.9,0-21.7,9.1-22.4,20.7c-2.8-0.7-5.7-1.1-8.8-1.1 c-19.2,0-34.8,15.2-34.8,33.9s15.3,33.9,34.5,33.9c0.9,0,1.7,0,2.4-0.1l0,0l99.3,0.1l0,0C169.7,151.4,184.5,136.3,184.5,117.6z">
+          <animate attributeName="dx" from="0" to="200" repeatCount="indefinite" dur="3s" />
+        </path>
+      </g>
+    </svg>
+
+    <svg class="cloud_3">
+      <g id="thecloud" class="cloud_anim">
+        <path id="Cloud" fill="#FFFFFF" d="M184.5,117.6c0-11.1-5-21-12.9-27.2c0.3-1.8,0.5-3.6,0.5-5.5c0-20.1-16.4-36.5-36.6-36.5 c-16.5,0-30.5,10.9-35,25.9c-4-6.2-11-10.3-19-10.3c-11.9,0-21.7,9.1-22.4,20.7c-2.8-0.7-5.7-1.1-8.8-1.1 c-19.2,0-34.8,15.2-34.8,33.9s15.3,33.9,34.5,33.9c0.9,0,1.7,0,2.4-0.1l0,0l99.3,0.1l0,0C169.7,151.4,184.5,136.3,184.5,117.6z">
+          <animate attributeName="dx" from="0" to="200" repeatCount="indefinite" dur="3s" />
+        </path>
+      </g>
+    </svg>
+
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+</html>
